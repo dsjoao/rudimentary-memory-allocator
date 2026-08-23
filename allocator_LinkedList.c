@@ -45,6 +45,7 @@ void init()
 
 
 // allocate new memory by checking the best block available traversing the lits of free regions on the heap from the start with best-fit logic 
+// tried some algos before but the one implemented in the article is the currently best for malloc and free in here so in the end it's implementation is almost identical
 void* new_malloc(uint64_t size)
 {
    
